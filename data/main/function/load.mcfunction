@@ -1,0 +1,1 @@
+tellraw @a "[Minecraft-Grace] Datapack has been reloaded!"
