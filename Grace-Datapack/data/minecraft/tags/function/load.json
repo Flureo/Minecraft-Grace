@@ -1,0 +1,6 @@
+{
+    "values": [
+        "main:minecraft/load",
+        "movement:minecraft/load"
+    ]
+}
