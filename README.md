@@ -1,1 +1,39 @@
-# Minecraft-Grace
+
+## Minecraft Grace
+
+> **Very Important!**
+>
+> **Please make sure that you support the actual developers of this amazing game** (no glaze) **and join the official Roblox Grace discord server [here](https://discord.com/invite/gracezone)! Thank you! ;)**
+
+This in development project attempts to recreate a [**Roblox Grace**](https://grace-rbx.fandom.com/wiki/Grace_Wiki) *classic* like experience completely inside of vanilla Minecraft using datapacks.
+
+> **Note:** This is a fan made project and we do not take credit for anything that has to do with the official game's development.
+
+### Features
+
+| Status         | Feature         |        |
+|----------------|-----------------|--------|
+| **Processing** | Room Generation | *None* |
+| **Alpha**      | Movement        | *None* |
+| **Processing** | Entities        | *None* |
+| **Processing** | Custom Badges   | *None* |
+| **Processing** | Custom Timers   | *None* |
+| **Processing** | Custom Items    | *None* |
+| **Processing** | Custom Music    | *None* |
+
+
+### Minecraft Port Credits:
+
+> **Note:** To any of the Roblox Grace Developers that might be reading. If you have any problems with this project please feel free to message us on discord.
+
+- **Flureo**
+    - [Github Profile](https://github.com/Flureo)
+    - [Minecraft Profile](https://namemc.com/profile/Flureo)
+    - [Roblox Profile](https://www.roblox.com/users/5313414222/profile)
+    - Discord Username: **flureo**
+
+- **WanderingPlayz**
+    - [Github Profile](https://github.com/WanderingPlayz)
+    - [Minecraft Profile](https://namemc.com/profile/ItzWandering)
+    - [Roblox Profile](https://www.roblox.com/users/1952130650/profile)
+    - Discord Username: **itzwandering**

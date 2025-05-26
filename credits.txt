@@ -1,5 +1,0 @@
-Developers:
-    Flureo:
-        https://github.com/Flureo
-    ItWandering:
-        https://github.com/WanderingPlayz
