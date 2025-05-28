@@ -1,1 +1,0 @@
-function movement:scoreboard/setup
