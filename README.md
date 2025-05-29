@@ -14,7 +14,7 @@ This in development project attempts to recreate a [**Roblox Grace**](https://gr
 | Status         | Feature         |        |
 |----------------|-----------------|--------|
 | **Processing** | Room Generation | *None* |
-| **Alpha**      | Movement        | *None* |
+| **Alpha**      | Movement        | The **Movement System** is being developed to recreate the *Roblox Grace* movement system. |
 | **Processing** | Entities        | *None* |
 | **Processing** | Custom Badges   | *None* |
 | **Processing** | Custom Timers   | *None* |
