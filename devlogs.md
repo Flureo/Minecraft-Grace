@@ -17,23 +17,28 @@
 > *Flureo*
 >
 > Today I been looking at the movement_speed attribute and I have found the perfect speed for sprinting, walking, and crouching to bring the player one block in one second. By the way the are all rounded to the nearest ten-thousandth. And crawling is the same as sneaking.
-
+>
 > **Sprinting: 1m/s**, *VALUE:* ***0.0178***
 >
 > **Command:** `/attribute @s movement_speed base set 0.0178`
-
+>
 > **Walking: 1m/s**, *VALUE:* ***0.0227***
 >
 > **Command:** `/attribute @s movement_speed base set 0.0227`
-
+>
 > **Sprint Sneaking: 1m/s**, *VALUE:* ***0.0625***
 >
 > **Command:** `/attribute @s movement_speed base set 0.0625`
-
+>
 > **Sneaking: 1m/s**, *VALUE:* ***0.0833***
 >
 > **Command:** `/attribute @s movement_speed base set 0.0833`
 
-
 ---
 
+**Devlog #3 6/2/2025**
+> *Flureo*
+>
+> Got done making a `per-player` database so we can store and grab custom player data. There is a readme file that explains how to use it in detail. That is basically it though. See you later!
+
+---
