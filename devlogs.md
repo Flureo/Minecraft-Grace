@@ -39,7 +39,7 @@
 **Devlog #4 6/2/2025**
 > *Flureo*
 >
-> Got done making a `per-player` database so we can store and grab custom player data. There is a readme file that explains how to use it in detail. That is basically it though. See you later!
+> Got done making a `per-player` database so we can store and grab custom player data. There is a readme file that explains how to use it in detail. That is basically it though. And I aslo never want to mess with this again. See you later!
 
 ---
 
