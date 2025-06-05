@@ -1,6 +1,6 @@
 data modify storage math:sqrt last_check set from storage math:sqrt check
 
-execute if predicate math:sqrt/is_number_valid run return 0
+execute if predicate utilities:math/sqrt/is_number_valid run return 0
 
 scoreboard objectives add calc.sqrt dummy
 scoreboard players set half calc.sqrt 2
@@ -19,7 +19,7 @@ scoreboard players operation check calc.sqrt = answer calc.sqrt
 scoreboard players operation check calc.sqrt *= answer calc.sqrt
 
 execute store result storage math:sqrt check int 1 run scoreboard players get check calc.sqrt
-execute unless predicate math:sqrt/last_check unless predicate math:sqrt/check_answer run return run function math:sqrt
+execute unless predicate utilities:math/sqrt/last_check unless predicate utilities:math/sqrt/check_answer run return run function utilities:math/sqrt
 
 execute store result storage math:sqrt answer float 0.01 run scoreboard players get answer calc.sqrt
 

@@ -9,7 +9,7 @@ By default, Minecraft doesn't provide a way to get the square root of a number. 
 
 Next just run the function.
 ```
-/function math:sqrt
+/function utilities:math/sqrt
 ```
 
 To get the answer you can run this command
