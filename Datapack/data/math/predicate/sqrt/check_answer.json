@@ -1,0 +1,20 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "math:sqrt",
+        "path": "check"
+    },
+    "range": {
+        "min": {
+            "type": "storage",
+            "storage": "math:sqrt",
+            "path": "number"
+        },
+        "max": {
+            "type": "storage",
+            "storage": "math:sqrt",
+            "path": "number"
+        }
+    }
+}

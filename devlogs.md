@@ -36,9 +36,16 @@
 
 ---
 
-**Devlog #3 6/2/2025**
+**Devlog #4 6/2/2025**
 > *Flureo*
 >
 > Got done making a `per-player` database so we can store and grab custom player data. There is a readme file that explains how to use it in detail. That is basically it though. See you later!
+
+---
+
+**Devlog #5 6/5/2025**
+> *Flureo*
+>
+> Yesterday I create the math namespace to store functions like sqrt() because Minecraft by default doesn't have one?! Its VERY annoying. But it can be done with the function that I've created. It uses the Babylonian method for anyone that cares... :sob:
 
 ---
