@@ -1,5 +1,5 @@
 {
     "values": [
-        "movement:check_movement"
+        "movement:tick"
     ]
 }

@@ -5,7 +5,7 @@
         "type_specific": {
             "type": "player",
             "input": {
-                "jump": true
+                "sneak": true
             }
         }
     }

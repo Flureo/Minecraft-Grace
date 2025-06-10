@@ -3,14 +3,9 @@
     "entity": "this",
     "predicate": {
         "type_specific": {
-        "type": "player",
+            "type": "player",
             "input": {
-                "sneak": false
-            }
-        },
-        "movement": {
-            "speed": {
-                "max": 0
+                "sprint": true
             }
         }
     }

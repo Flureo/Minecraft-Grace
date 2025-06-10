@@ -5,11 +5,8 @@
         "type_specific": {
             "type": "player",
             "input": {
-                "sneak": true
+                "forward": true
             }
-        },
-        "flags": {
-            "is_sprinting": false
         }
     }
 }

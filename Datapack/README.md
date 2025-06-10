@@ -2,9 +2,7 @@
 
 You can enable log messages by giving yourself the ***log*** tag.
 
-```
-/tag @s add log
-```
+``/tag @s add log``
 
 ---
 
@@ -12,9 +10,7 @@ You can enable log messages by giving yourself the ***log*** tag.
 
 You can disable discord invite messages by giving yourself the ***DiscordInviteOFF*** tag.
 
-```
-/tag @s add DiscordInviteOFF
-```
+``/tag @s add DiscordInviteOFF``
 
 ---
 
@@ -22,8 +18,6 @@ You can disable discord invite messages by giving yourself the ***DiscordInviteO
 
 You can enable the movement indicator by giving yourself the ***log*** tag.
 
-```
-/tag @s add log
-```
+``/tag @s add log``
 
 ---
