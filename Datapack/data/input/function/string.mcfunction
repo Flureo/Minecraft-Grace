@@ -1,0 +1,1 @@
+$function utilities:dev_tools/string_input_main {string:"$(string)"}
