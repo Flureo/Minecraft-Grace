@@ -3,8 +3,8 @@
     "entity": "this",
     "predicate": {
         "movement": {
-            "horizontal_speed": {
-                "min": 1
+            "fall_distance": {
+                "min": 0.4
             }
         }
     }

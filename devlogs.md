@@ -49,3 +49,10 @@
 > Yesterday I create the math namespace to store functions like sqrt() because Minecraft by default doesn't have one?! Its VERY annoying. But it can be done with the function that I've created. It uses the Babylonian method for anyone that cares... :sob:
 
 ---
+
+**Devlog #6 6/25/2025**
+> *Flureo*
+>
+> The movement system is finally in beta! Now I feel like I actually did something :sob: Also sorry for slow development.
+
+---

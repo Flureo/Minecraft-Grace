@@ -5,7 +5,10 @@
         "type_specific": {
             "type": "player",
             "input": {
-                "forward": true
+                "backward": false,
+                "forward": false,
+                "left": false,
+                "right": false
             }
         }
     }

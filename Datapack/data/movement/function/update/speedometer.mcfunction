@@ -50,6 +50,7 @@
     data remove storage math:sqrt check
     data remove storage math:sqrt last_check
 
-function utilities:database/player/get
-title @s actionbar [{storage:"database",nbt:"return.horizontal_speed"},{text:" m/s"}]
-data remove storage database return
+# Log
+    function utilities:database/player/get
+    title @s[tag=log] actionbar [{storage:"database",nbt:"return.horizontal_speed"},{text:" m/s"}]
+    data remove storage database return
