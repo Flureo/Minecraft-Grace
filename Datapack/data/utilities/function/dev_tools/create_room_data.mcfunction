@@ -4,10 +4,10 @@
 scoreboard objectives add rooms_DEV_Tools dummy rooms_DEV_Tools
 scoreboard objectives setdisplay sidebar rooms_DEV_Tools
 
-$scoreboard players set "x" rooms_DEV_Tools $(x)
-$scoreboard players set "y" rooms_DEV_Tools $(y)
-$scoreboard players set "z" rooms_DEV_Tools $(z)
-scoreboard players set "switch" rooms_DEV_Tools -1
+$scoreboard players set x rooms_DEV_Tools $(x)
+$scoreboard players set y rooms_DEV_Tools $(y)
+$scoreboard players set z rooms_DEV_Tools $(z)
+scoreboard players set switch rooms_DEV_Tools -1
 
 data modify storage temp_dev_room Main set value {}
 
@@ -41,40 +41,40 @@ $data modify storage minecraft:temp_dev_room Main.Structure.SouthOffset.z set va
 
 #North Offset
 
-scoreboard players operation "x" rooms_DEV_Tools *= "switch" rooms_DEV_Tools
-scoreboard players operation "z" rooms_DEV_Tools *= "switch" rooms_DEV_Tools
+scoreboard players operation x rooms_DEV_Tools *= switch rooms_DEV_Tools
+scoreboard players operation z rooms_DEV_Tools *= switch rooms_DEV_Tools
 
-execute store result storage minecraft:temp_dev_room Main.Structure.NorthOffset.x double 1 run scoreboard players get "x" rooms_DEV_Tools
-execute store result storage minecraft:temp_dev_room Main.Structure.NorthOffset.y double 1 run scoreboard players get "y" rooms_DEV_Tools
-execute store result storage minecraft:temp_dev_room Main.Structure.NorthOffset.z double 1 run scoreboard players get "z" rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.NorthOffset.x double 1 run scoreboard players get x rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.NorthOffset.y double 1 run scoreboard players get y rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.NorthOffset.z double 1 run scoreboard players get z rooms_DEV_Tools
 
 
 #West Offset
 
-scoreboard players operation "x" rooms_DEV_Tools *= "switch" rooms_DEV_Tools
+scoreboard players operation x rooms_DEV_Tools *= switch rooms_DEV_Tools
 
-execute store result storage minecraft:temp_dev_room Main.Structure.WestOffset.x double 1 run scoreboard players get "z" rooms_DEV_Tools
-execute store result storage minecraft:temp_dev_room Main.Structure.WestOffset.y double 1 run scoreboard players get "y" rooms_DEV_Tools
-execute store result storage minecraft:temp_dev_room Main.Structure.WestOffset.z double 1 run scoreboard players get "x" rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.WestOffset.x double 1 run scoreboard players get z rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.WestOffset.y double 1 run scoreboard players get y rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.WestOffset.z double 1 run scoreboard players get x rooms_DEV_Tools
 
 
 #East Offset
 
-scoreboard players operation "x" rooms_DEV_Tools *= "switch" rooms_DEV_Tools
-scoreboard players operation "z" rooms_DEV_Tools *= "switch" rooms_DEV_Tools
+scoreboard players operation x rooms_DEV_Tools *= switch rooms_DEV_Tools
+scoreboard players operation z rooms_DEV_Tools *= switch rooms_DEV_Tools
 
-execute store result storage minecraft:temp_dev_room Main.Structure.EastOffset.x double 1 run scoreboard players get "z" rooms_DEV_Tools
-execute store result storage minecraft:temp_dev_room Main.Structure.EastOffset.y double 1 run scoreboard players get "y" rooms_DEV_Tools
-execute store result storage minecraft:temp_dev_room Main.Structure.EastOffset.z double 1 run scoreboard players get "x" rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.EastOffset.x double 1 run scoreboard players get z rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.EastOffset.y double 1 run scoreboard players get y rooms_DEV_Tools
+execute store result storage minecraft:temp_dev_room Main.Structure.EastOffset.z double 1 run scoreboard players get x rooms_DEV_Tools
 
 scoreboard objectives remove rooms_DEV_Tools
 
 tellraw @p [{italic:true,text:"",extra:[{bold:false,text:"Your Room info is in storage "}]},{color:"green",click_event:{action:"suggest_command",command:"/data get storage minecraft:temp_dev_room Main"},text:"[",extra:[{bold:true,text:"minecraft:temp_dev_room]"}]}]
 
 scoreboard objectives add temp dummy temp
-scoreboard players set "one" temp 1
-$scoreboard players set "macro" temp $(export)
+scoreboard players set one temp 1
+$scoreboard players set macro temp $(export)
 
-$execute if score "macro" temp = "one" temp run function utilities:dev_tools/export_room {StructureID:"$(StructureNamespace):$(RoomName)"}
+$execute if score macro temp = one temp run function utilities:dev_tools/export_room {StructureID:"$(StructureNamespace):$(RoomName)"}
 
 scoreboard objectives remove temp
