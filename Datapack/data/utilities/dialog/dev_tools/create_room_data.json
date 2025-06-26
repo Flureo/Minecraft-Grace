@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Create Room Data",
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "RoomName",
+      "label": "RoomName"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "StructureNamespace",
+      "label": "Physical Room Namespace"
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "x",
+      "label": {
+        "text": "X Offset"
+      },
+      "start": -10,
+      "end": 10,
+      "step": 1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "y",
+      "label": {
+        "text": "Y Offset"
+      },
+      "start": -10,
+      "end": 10,
+      "step": 1
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "z",
+      "label": {
+        "text": "Z Offset"
+      },
+      "start": -10,
+      "end": 10,
+      "step": 1
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "export",
+      "label": {
+        "text": "Put room in Structure block?"
+      },
+      "initial": true,
+      "on_false": "0",
+      "on_true": "1"
+    }
+  ],
+  "can_close_with_escape": true,
+  "columns": 2,
+  "button_width": 125,
+  "actions": [
+    {
+      "label": "Confirm",
+      "action": {
+        "type": "dynamic/run_command",
+        "template": "function utilities:dev_tools/create_room_data {RoomName:\"$(RoomName)\",StructureNamespace:\"$(StructureNamespace)\",x:$(x),y:$(y),z:$(z),export:$(export)}"
+      }
+    }
+  ]
+}

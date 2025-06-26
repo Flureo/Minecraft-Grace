@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "test",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+        {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:stick",
+              "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "test"
+          ]
+        }
+      }
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "can_close_with_escape": true,
+  "actions": [
+    {
+      "label": "test",
+      "action": {
+        "type": "run_command",
+        "command": "execute as @a run say test_button"
+      }
+    }
+  ]
+}
