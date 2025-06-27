@@ -56,3 +56,10 @@
 > The movement system is finally in beta! Now I feel like I actually did something :sob: Also sorry for slow development.
 
 ---
+
+**Devlog #7 6/27/2025**
+> *Flureo*
+>
+> Fixed the movement system to were you can slide down stairs making you faster in the process. I also add a simple resource pack and a couple of soundtracks. Lava Chicken is fire by the way. I'll also be making another commit soon because right now I feel on fire! I don't really know what else to say here so see you later I guess.
+
+---
