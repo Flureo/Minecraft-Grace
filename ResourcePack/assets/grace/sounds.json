@@ -1,0 +1,24 @@
+{
+    "music": {
+        "sounds": [
+            "grace:soundtracks/break",
+            "grace:soundtracks/lava_chicken",
+            "grace:soundtracks/japache"
+        ]
+    },
+    "music.break": {
+        "sounds": [
+            "grace:soundtracks/break"
+        ]
+    },
+    "music.lava_chicken": {
+        "sounds": [
+            "grace:soundtracks/lava_chicken"
+        ]
+    },
+    "music.japache": {
+        "sounds": [
+            "grace:soundtracks/japache"
+        ]
+    }
+}

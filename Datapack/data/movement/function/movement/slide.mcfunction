@@ -6,10 +6,10 @@ scoreboard players set change sliding.speed 1
 scoreboard players operation @s sliding.speed -= change sliding.speed
 execute if score @s sliding.speed matches ..-1 run scoreboard players set @s sliding.speed 0
 
-scoreboard players set change sliding.speed 4
+scoreboard players set change sliding.speed 6
 execute if predicate movement:is_falling run scoreboard players operation @s sliding.speed += change sliding.speed
 
-execute if score @s[tag=!uncappedSpeed] sliding.speed matches 301.. run scoreboard players set @s sliding.speed 300
+execute if score @s[tag=!uncapSpeed] sliding.speed matches 301.. run scoreboard players set @s sliding.speed 300
 
 execute store result storage database args.speed float .001 run scoreboard players get @s sliding.speed
 function movement:movement/macro_slid with storage database args

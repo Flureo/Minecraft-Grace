@@ -1,6 +1,6 @@
 {
     "values": [
-        "minecraft:load",
-        "movement:init"
+        "#grace:load",
+        "#movement:load"
     ]
 }

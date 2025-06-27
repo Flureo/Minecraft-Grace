@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {"id": "stick", "components": {"item_model": "grace:break"}},
+        "title": "L-79 - Break",
+        "description": "",
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "grace:soundtracks/play/break"
+    }
+}
