@@ -3,7 +3,8 @@
         "sounds": [
             "grace:soundtracks/break",
             "grace:soundtracks/lava_chicken",
-            "grace:soundtracks/japache"
+            "grace:soundtracks/japache",
+            "grace:soundtracks/seppuku"
         ]
     },
     "music.break": {
@@ -19,6 +20,11 @@
     "music.japache": {
         "sounds": [
             "grace:soundtracks/japache"
+        ]
+    },
+    "music.seppuku": {
+        "sounds": [
+            "grace:soundtracks/seppuku"
         ]
     }
 }

@@ -1,0 +1,1 @@
+advancement revoke @a only grace:soundtracks/play_seppuku

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {"id": "jukebox", "components": {"item_model": "grace:lava_chicken"}},
+        "title": {"text": "Lava Chicken", "color": "gold", "bold": true},
+        "description": "Hyper Potions - Lava Chicken",
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "grace:soundtracks/play_lava_chicken"
+    }
+}

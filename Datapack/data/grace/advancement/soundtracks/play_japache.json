@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {"id": "jukebox", "components": {"item_model": "grace:japache"}},
+        "title": {"text": "Japache", "color": "aqua", "bold": true},
+        "description": "SPIN MASTER A-1 - Japache",
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "grace:soundtracks/play_japache"
+    }
+}

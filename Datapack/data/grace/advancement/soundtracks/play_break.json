@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {"id": "jukebox", "components": {"item_model": "grace:break"}},
+        "title": {"text": "Break", "color": "light_purple", "bold": true},
+        "description": "L-79 - Break",
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "grace:soundtracks/play_break"
+    }
+}

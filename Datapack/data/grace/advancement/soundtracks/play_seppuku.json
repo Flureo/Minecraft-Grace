@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {"id": "jukebox", "components": {"item_model": "grace:seppuku"}},
+        "title": {"text": "Seppuku", "color": "yellow", "bold": true},
+        "description": "ShogunF - Seppuku",
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "grace:soundtracks/play_seppuku"
+    }
+}
