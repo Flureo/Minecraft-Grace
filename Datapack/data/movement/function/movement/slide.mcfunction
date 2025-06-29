@@ -16,7 +16,8 @@ execute positioned as @s if block ~ ~-2 ~ #stairs if predicate movement:is_falli
 
 execute if score @s[tag=!uncapSpeed] sliding.speed matches 3501.. run scoreboard players set @s sliding.speed 3500
 
-execute store result storage database args.speed float .0001 run scoreboard players get @s sliding.speed
+execute if predicate movement:is_sprinting store result storage database args.speed float .0001 run scoreboard players get @s sliding.speed
+execute unless predicate movement:is_sprinting store result storage database args.speed float .00013 run scoreboard players get @s sliding.speed
 function movement:movement/macro_slid with storage database args
 
 scoreboard players reset change

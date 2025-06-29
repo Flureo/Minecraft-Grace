@@ -1,1 +1,0 @@
-advancement revoke @a only grace:soundtracks/play_lava_chicken

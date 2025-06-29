@@ -1,5 +1,0 @@
-stopsound @s
-function grace:soundtracks/reset_break
-function grace:soundtracks/reset_lava_chicken
-function grace:soundtracks/reset_japache
-function grace:soundtracks/reset_seppuku

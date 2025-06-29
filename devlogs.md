@@ -63,3 +63,10 @@
 > Fixed the movement system to were you can slide down stairs making you faster in the process. I also add a simple resource pack and a couple of soundtracks. Lava Chicken is fire by the way. I'll also be making another commit soon because right now I feel on fire! I don't really know what else to say here so see you later I guess.
 
 ---
+
+**Devlog #8 6/28/2025**
+> *Flureo*
+>
+> Just got done with a dozer prototype. I didn't really know how to make the animation work :happy: I also updated some names and I fixed some movement system stuff but nothing really important. Also I just found out some hard limitations with datapacks but I will explain that later right now I want to go to bed. Good night love yall.
+
+---
