@@ -9,18 +9,21 @@ This in development project attempts to recreate a [**Roblox Grace**](https://gr
 
 > **Note:** This is a fan made project and we do not take credit for anything that has to do with the official game's development. And if you'd like to contact us for support please friend one of us on discord or make an issue report here on github. Please make sure not to bother the Roblox Grace developers with the issues from the Minecraft-Grace repo.
 
+### Installation
+
+**Coming soon...**
+
 ### Features
 
 | Status         | Feature         |        |
 |----------------|-----------------|--------|
 | **Alpha**      | Room Generation | The whole game* |
 | **Beta**       | Movement        | The **Movement System** is being developed to recreate the *Roblox Grace* movement system. |
-| **Alpha** | Entities        | *None* |
+| **Alpha**      | Entities        | *None* |
 | **Processing** | Custom Badges   | *None* |
 | **Processing** | Custom Timers   | *None* |
 | **Processing** | Custom Items    | *None* |
 | **Alpha**      | Custom Music    | Just a simple system with some fire soundtracks! |
-
 
 ### Minecraft Port Credits:
 
